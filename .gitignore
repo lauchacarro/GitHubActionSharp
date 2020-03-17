@@ -40,3 +40,4 @@ appsettings.Development.json
 *.pubxml
 launchSettings.json
 /src/Properties/launchSettings.json
+nuget.config

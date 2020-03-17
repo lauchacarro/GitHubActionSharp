@@ -5,6 +5,10 @@
     <Company />
     <Authors>Lautaro Carro</Authors>
     <Product />
+    <PackageId>GitHubActionSharp</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Lautaro Carro</Authors>
+    <RepositoryUrl>https://github.com/lauchacarro/GitHubActionSharp</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
