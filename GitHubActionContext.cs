@@ -24,9 +24,11 @@ namespace GitHubActionSharp
                 {
                     int index = _args.IndexOf(arg);
 
+                    string argAux = arg.Substring(1);
+
                     if (_args[index] == _args.Last())
                     {
-                        Parameters.Add(arg, null);
+                        Parameters.Add(argAux, null);
                     }
                     else if (_args[index + 1].StartsWith("-"))
                     {
@@ -34,7 +36,7 @@ namespace GitHubActionSharp
                     }
                     else
                     {
-                        Parameters.Add(arg, _args[index + 1]);
+                        Parameters.Add(argAux, _args[index + 1]);
                     }
                 }
             }
